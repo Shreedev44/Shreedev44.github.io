@@ -1,0 +1,81 @@
+.top-div
+{
+    position: absolute;
+    height: 148px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.69) 10% ,transparent 90%);
+    z-index: 4;
+    
+}
+.top-flex-div
+{
+    margin-left: 63px;
+    margin-right: 63px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.porsche-text
+{
+    font-family: porsche;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 24
+}
+.material-symbols-outlined
+{
+    color: white;
+}
+.menu-button
+{
+    display: grid; 
+    grid-template-columns: 24px 1fr; 
+    padding-left: 2px;
+    padding-right: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    transition: 0.2s;
+}
+.menu-button:hover
+{
+    background-color: rgba(65, 65, 65, 0.673);
+    backdrop-filter: blur(5px);
+}
+.menu-text
+{
+    margin-top: 1px;
+    margin-right: 2px;
+    margin-left: 3px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.user-button
+{
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    padding: 2px;
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+    background-color: transparent;
+    transition: 0.2s;
+}
+.user-button:hover
+{
+    background-color: rgba(65, 65, 65, 0.673);
+    backdrop-filter: blur(5px);
+}

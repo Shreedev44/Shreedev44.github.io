@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Bio Sans W04 Regular;
+}
+
+div
+{
+    display: inline-block;
+}
+
+@font-face {
+    font-family: porsche;
+    src: url(fonts/Porsche\ Regular.ttf);
+}
+@font-face {
+    font-family: "Bio Sans W04 Regular";
+    src: url("https://db.onlinewebfonts.com/t/2113f701d3f2c47b990581da409548ae.eot");
+    src: url("https://db.onlinewebfonts.com/t/2113f701d3f2c47b990581da409548ae.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2113f701d3f2c47b990581da409548ae.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2113f701d3f2c47b990581da409548ae.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2113f701d3f2c47b990581da409548ae.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2113f701d3f2c47b990581da409548ae.svg#Bio Sans W04 Regular")format("svg");
+}
+
+a{
+    text-decoration: none;
+}
+
+.price-warning
+{
+    margin-top: 10px;
+    
+    position: relative;
+    left: 16%;
+    font-size: 11px;
+    font-weight: 100;
+    color: rgb(107, 109, 112);
+}
